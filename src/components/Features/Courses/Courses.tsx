@@ -1,7 +1,10 @@
+import UnderDevelopment from '@/components/UnderDevelopment/UnderDevelopment'
 import React from 'react'
 
 export default function Courses() {
   return (
-    <div>This is the Courses Section</div>
+    <div>
+      <UnderDevelopment pageName="Courses" />
+    </div>
   )
 }

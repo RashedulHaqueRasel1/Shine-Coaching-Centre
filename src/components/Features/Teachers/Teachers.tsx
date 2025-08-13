@@ -1,7 +1,10 @@
+import UnderDevelopment from '@/components/UnderDevelopment/UnderDevelopment'
 import React from 'react'
 
 export default function Teachers() {
   return (
-    <div>This is the Teachers Section</div>
+    <div>
+      <UnderDevelopment pageName="Teachers" />
+    </div>
   )
 }

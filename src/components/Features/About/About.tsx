@@ -1,7 +1,10 @@
-import React from 'react'
+import UnderDevelopment from "@/components/UnderDevelopment/UnderDevelopment";
+import React from "react";
 
 export default function About() {
   return (
-    <div> This is the About section</div>
-  )
+    <div>
+      <UnderDevelopment pageName="About" />
+    </div>
+  );
 }
