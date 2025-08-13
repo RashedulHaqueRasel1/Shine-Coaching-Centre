@@ -1,9 +1,9 @@
-import HomeSection from "@/components/Features/HomeSection/HomeSection";
+import Home from "@/components/Features/Home/Home";
 
 export default function MainPage() {
   return (
     <div>
-      <HomeSection />
+      <Home />
     </div>
   )
 }
