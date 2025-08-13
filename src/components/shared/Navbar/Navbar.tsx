@@ -14,7 +14,7 @@ export default function Navbar() {
     { name: "Courses", href: "/courses" },
     { name: "Success Stories", href: "/success-stories" },
     { name: "Teachers", href: "/teachers" },
-    { name: "Gallery", href: "/gallery" },
+    { name: "Gallery", href: "/gallerys" },
     { name: "Contact", href: "/contact" },
     { name: "Dashboard", href: "/dashboard" },
   ];
