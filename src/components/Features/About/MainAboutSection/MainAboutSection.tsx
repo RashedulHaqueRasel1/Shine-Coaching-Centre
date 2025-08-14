@@ -37,7 +37,7 @@ export default function MainAboutSection() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="https://res.cloudinary.com/dzov2ohym/image/upload/v1755213894/ShineCoachingCentre-about_wgldcd.jpg?height=500&width=600"
                 alt="Coaching centre building"
                 width={600}
                 height={500}

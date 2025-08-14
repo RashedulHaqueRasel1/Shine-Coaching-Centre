@@ -12,7 +12,7 @@ export default function AboutFounderMessageSection() {
               <CardHeader className="text-center">
                 <div className="relative w-32 h-32 mx-auto mb-6">
                   <Image
-                    src="/placeholder.svg?height=150&width=150"
+                    src="https://res.cloudinary.com/dzov2ohym/image/upload/v1755213662/Screenshot_2025-08-15_052044_xffoys.png?height=150&width=150"
                     alt="Founder"
                     fill
                     className="rounded-full object-cover"
