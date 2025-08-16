@@ -44,7 +44,7 @@ export default function UnderDevelopment({ pageName }: { pageName?: string }) {
           <Button
             onClick={() => router.back()}
             variant="outline"
-            className="mt-6 border-yellow-500 text-yellow-700 font-medium hover:bg-yellow-100 hover:text-yellow-800 transition-all duration-200"
+            className="mt-6 border-yellow-500 text-yellow-700 font-medium hover:bg-yellow-100 hover:text-yellow-800 transition-all duration-200 cursor-pointer"
           >
             ← Go Back
           </Button>
