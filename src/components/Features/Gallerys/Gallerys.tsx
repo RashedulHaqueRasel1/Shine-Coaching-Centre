@@ -18,8 +18,6 @@ export default function Gallerys() {
       <GalleryCategories />
 
       {/* Virtual Tour CTA */}
-
-
       <CallToActionSection
         title="Want to See More?"
         subtitle="Visit our campus to experience the vibrant learning environment firsthand"

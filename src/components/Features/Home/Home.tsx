@@ -30,7 +30,7 @@ export default function Home() {
         subtitle="Don't wait - your academic success starts with a single step. Contact us today!"
         primaryBtn={{ label: "Call Now", href: "/contact" }}
         secondaryBtn={{ label: "View Courses", href: "/courses" }}
-        bgColor="bg-blue-700"
+        bgColor="bg-blue-900"
       />
     </div>
   );

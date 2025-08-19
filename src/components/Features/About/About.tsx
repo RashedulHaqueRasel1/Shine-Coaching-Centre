@@ -38,7 +38,7 @@ export default function About() {
         subtitle="Discover how Shine Coaching Centre can help you achieve your academic goals"
         primaryBtn={{ label: "Call Now", href: "/contact" }}
         secondaryBtn={{ label: "View Courses", href: "/courses" }}
-        bgColor="bg-blue-700"
+        bgColor="bg-blue-900"
       />
     </div>
   );

@@ -4,7 +4,7 @@ import { Users, BookOpen, GraduationCap, Trophy } from "lucide-react";
 export default function AboutStatsSection() {
   return (
     <div>
-      <section className="py-20 bg-blue-900 text-white">
+      <section className="py-20 bg-gray-200 text-black">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
@@ -18,7 +18,7 @@ export default function AboutStatsSection() {
                   <stat.icon className="w-8 h-8" />
                 </div>
                 <div className="text-3xl font-bold mb-2">{stat.value}</div>
-                <div className="text-blue-100">{stat.label}</div>
+                <div className="text-black">{stat.label}</div>
               </div>
             ))}
           </div>
