@@ -169,11 +169,12 @@ export default function ContactFormMap() {
                         rows={5}
                         value={formData.message}
                         onChange={handleChange}
+                        className="h-16 md:h-32"
                         placeholder="Tell us about your academic goals, questions, or any specific requirements..."
                       />
                     </div>
 
-                    <Button type="submit" size="lg" className="w-full">
+                    <Button type="submit" size="lg" className="w-full cursor-pointer">
                       <Send className="w-4 h-4 mr-2" />
                       Send Message
                     </Button>
@@ -197,7 +198,7 @@ export default function ContactFormMap() {
                 <CardContent className="h-full">
                   <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.674870949309!2d77.20902731508236!3d28.65195938242896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd0683d1e6b3%3A0x2b2b2b2b2b2b2b2b!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1635789012345!5m2!1sen!2sin"
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1823.121802405959!2d90.29263399774725!3d23.951824461194306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1757459383262!5m2!1sen!2sbd"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
@@ -206,6 +207,7 @@ export default function ContactFormMap() {
                       referrerPolicy="no-referrer-when-downgrade"
                       className="rounded-lg"
                     ></iframe>
+                    
                   </div>
                   <div className="mt-6 space-y-4">
                     <div className="flex items-start gap-3">

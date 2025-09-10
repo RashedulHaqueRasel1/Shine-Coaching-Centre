@@ -16,7 +16,7 @@ export default function Navbar() {
     { name: "Teachers", href: "/teachers" },
     { name: "Gallery", href: "/gallerys" },
     { name: "Contact", href: "/contact" },
-    { name: "Dashboard", href: "/dashboard" },
+    { name: "Dashboard", href: "/dashboard-overview" },
   ];
 
   return (
