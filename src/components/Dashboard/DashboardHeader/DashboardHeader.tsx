@@ -15,7 +15,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 export default function DashboardHeader() {
   const section = "Dashboard";
 
-  // Dummy user data (API ছাড়া)
+  // Dummy user data  
   const user = {
     firstName: "John",
     lastName: "Doe",
