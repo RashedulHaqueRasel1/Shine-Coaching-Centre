@@ -70,7 +70,6 @@ npm install
 ```env
 NEXT_PUBLIC_APP_NAME="Shine Coaching Center"
 NEXT_PUBLIC_API_BASE_URL=http://localhost:3000/api
-DATABASE_URL=postgresql://user:password@localhost:5432/shine_db
 # Add auth provider keys (if using NextAuth)
 # GOOGLE_CLIENT_ID=
 # GOOGLE_CLIENT_SECRET=
@@ -80,11 +79,6 @@ DATABASE_URL=postgresql://user:password@localhost:5432/shine_db
 
 ```bash
 npm run dev
-# or
-pnpm dev
-# or
-yarn dev
-```
 
 Visit `http://localhost:3000` to view the app.
 
